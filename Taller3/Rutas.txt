@@ -1,0 +1,30 @@
+Rutas para DBeaver:
+
+catalog database: localhost:30101
+Store database: localhost:30102
+
+// la contraseña del usuario root es "password"
+//Para la db de Mongo se debe usar compass conectandose el puerto 30103
+
+
+Rutas para postman:
+
+CATALOG
+host: localhost:30300
+
+Listar libros: localhost:30300/api/getlibros
+
+STORE
+host: localhost:30400
+
+Obtener carrito: localhost:30400/api/getcart dandole el argunmento de usuario=student
+
+REVIEWS
+
+host: localhost:30200
+
+Listar reviews: localhost:30200/reviews
+
+PARA MAS INFO VER EL README DEL DIRECTORIO BACKEND DEL REPOSITORIO DE LA LIBRERIA
+
+CUANDO SE ESTE CONFIGURANDO LA CONEXION DE LA BASE DE DATOS DE MYSQL AL DBEAVER, MIRAR LA PESTAÑA "driver propeties" Y CAMBIAR EL "AllowPublicKeyRetrieval" A TRUE USANDO EL SELECTOR, NO ESCRIBIENDOLO.
